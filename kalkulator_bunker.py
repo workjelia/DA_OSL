@@ -41,7 +41,7 @@ st.markdown(
     .watermark {
         position: fixed;
         bottom: 10px;
-        right: 15px;
+        left: 15px;
         font-size: 15px;
         color: #d81b60;
         opacity: 0.6;
