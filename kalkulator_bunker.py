@@ -46,7 +46,7 @@ st.markdown(
         color: #d81b60;
         opacity: 0.6;
         font-weight: bold;
-        z-index: 999;
+        z-index: 999999;
     }
     </style>
     
