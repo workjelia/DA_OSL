@@ -271,12 +271,12 @@ if df_clean is not None and not df_clean.empty:
                     f"**Total ME:** {total_me:.3f} MT | "
                     f"**Total AE:** {total_ae:.3f} MT | "
                     f"**Total ME + AE:** {total_me_ae:.3f} MT | "
-                    f"**Pemakaian:** {liter_per_hour:.3f} Liter/Hour"
+                    f"**Pemakaian:** {liter_per_hour:.3f} Liter/Jam"
                 )
             else:
                 st.success(
                     f"**Total ME + AE:** {total_me_ae:.3f} MT | "
-                    f"**Pemakaian:** {liter_per_hour:.3f} Liter/Hour"
+                    f"**Pemakaian:** {liter_per_hour:.3f} Liter/Jam"
                 )
 
             st.subheader("Detail Tabel Hasil Perhitungan")
