@@ -125,9 +125,6 @@ if metode_input == "Upload File Excel (.xlsx)":
             # Penanganan khusus Falcon 19 (1 RPM) vs Kapal Lainnya (2 RPM)
             if pilihan_kapal == "FALCON 19":
                 df_clean["RPM"] = pd.to_numeric(df_data.iloc[:, 6], errors="coerce")
-            elif pilihan_kapal in ["SEAGULL 351"]:
-                df_clean["RPM_Port"] = pd.to_numeric(df_data.iloc[:, 9], errors="coerce")
-                df_clean["RPM_Stbd"] = pd.to_numeric(df_data.iloc[:, 10], errors="coerce")
             else:
                 df_clean["RPM_Port"] = pd.to_numeric(df_data.iloc[:, 5], errors="coerce")
                 df_clean["RPM_Stbd"] = pd.to_numeric(df_data.iloc[:, 6], errors="coerce")
