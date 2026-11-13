@@ -276,7 +276,7 @@ if df_clean is not None and not df_clean.empty:
                 )
             else:
                 st.success(
-                    f"**Total Duration Days:** {steaming_time:.3f} Hari | "
+                    f"**Steaming Time:** {steaming_time:.3f} Hari | "
                     f"**Total ME + AE:** {total_me_ae:.3f} MT | "
                     f"**Pemakaian:** {liter_per_hour:.3f} Liter/Jam"
                 )
