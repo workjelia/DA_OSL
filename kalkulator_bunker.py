@@ -268,7 +268,7 @@ if df_clean is not None and not df_clean.empty:
             # --- TAMPILAN HASIL ---
             if total_me is not None and total_ae is not None:
                 st.success(
-                    f"**Total Duration Days:** {steaming_time:.3f} Hari | "
+                    f"**Steaming Time:** {steaming_time:.3f} Hari | "
                     f"**Total ME:** {total_me:.3f} MT | "
                     f"**Total AE:** {total_ae:.3f} MT | "
                     f"**Total ME + AE:** {total_me_ae:.3f} MT | "
